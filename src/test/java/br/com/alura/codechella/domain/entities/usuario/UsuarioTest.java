@@ -1,4 +1,4 @@
-package br.com.alura.codechella.domain.usuario;
+package br.com.alura.codechella.domain.entities.usuario;
 
 import br.com.alura.codechella.domain.entities.usuario.BuilderOfUsuario;
 import br.com.alura.codechella.domain.entities.usuario.Usuario;
@@ -15,8 +15,6 @@ public class UsuarioTest {
         Assertions.assertThrows(IllegalArgumentException.class,
                 () -> new Usuario("", "Pedro", LocalDate.parse("2005-12-11"), "pedro@gmail"));
 
-        Assertions.assertThrows(IllegalArgumentException.class,
-                () -> new Usuario("", "Pedro", LocalDate.parse("2005-12-11"), "pedro@gmail"));
     }
 
     @Test
