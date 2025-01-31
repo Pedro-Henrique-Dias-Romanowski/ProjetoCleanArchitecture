@@ -1,5 +1,6 @@
 package br.com.alura.codechella.infra.persistence;
 
+import br.com.alura.codechella.domain.entities.usuario.dto.DtoUsuario;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -28,6 +29,13 @@ public class UsuarioEntity {
         this.nome = nome;
         this.nascimento = nascimento;
         this.email = email;
+    }
+
+    public UsuarioEntity(DtoUsuario dtoUsuario) {
+        this.cpf = dtoUsuario.cpf();
+        this.nome = dtoUsuario.nome();
+        this.nascimento = dtoUsuario.nascimento();
+        this.email = dtoUsuario.email();
     }
 
     public Long getId() {
