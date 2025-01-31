@@ -1,0 +1,20 @@
+cpf:109.303.269-38
+nome: Pedro
+nascimento:2005-11-12
+email:pedro@gmail.com
+
+cpf:222.322.211-12
+nome: João
+nascimento:2000-09-11
+email:joao@gmail.com
+
+cpf:111.324.123-32
+nome: Matheus
+nascimento:2002-12-10
+email:matheus@gmail.com
+
+cpf:100.300.261-28
+nome: Gabriel
+nascimento:2003-08-14
+email:gabriel@gmail.com
+
